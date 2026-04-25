@@ -1,0 +1,27 @@
+{
+  "slug": "professional-tracking-stack",
+  "title": "The Compliant Tracking Stack for Professionals",
+  "fileLabel": "Professional Tracking Stack",
+  "hook": "Conversion tracking quietly broke for professional services in 2025 and 2026. Consent Mode v2 became mandatory in the EEA. Meta restricted lower-funnel events for healthcare and behavioral health accounts. Third-party cookies are gone in Chrome. Most law firms, medical practices, and home service businesses are flying blind on attribution and do not know it. This is the playbook that fixes it: GA4, Meta CAPI, Google Ads Enhanced Conversions, CallRail, and consent management, set up the way your industry's rules require, with a companion git repo that has the working code.",
+  "benefits": [
+    "GA4 plus Google Tag Manager plus Consent Mode v2: the foundation every professional services site needs in 2026, with the consent gating logic that keeps you legal in the EEA, California, and Quebec.",
+    "Server-side conversions via Meta CAPI and Google Ads Enhanced Conversions: how to send leads back to the ad platforms without leaking PHI, attorney privilege, or PII, with the SHA-256 hashing pattern and the eventID dedup logic.",
+    "The vertical-specific layer: doctor pattern (HIPAA, Meta health-cat restrictions, BAA-signed CDP), lawyer pattern (state bar advertising rules, privilege-preserving forms), home service pattern (call-driven, service-area attribution, route tracking).",
+    "Call tracking done right: CallRail dynamic number insertion that survives React hydration, BAA setup for medical, recording controls for legal, plus the callback API that fires GA4 and Google Ads conversions on every qualified call.",
+    "Lead attribution that survives: the first-party UTM capture middleware, the lead_attribution table schema, the Google Search Console API integration that pulls the actual organic queries driving traffic to each landing page.",
+    "Validation, deployment, and the 8 failures that silently break tracking: GTM preview, Meta Test Events, Tag Assistant, the pre-launch checklist, plus the companion git repo with working Next.js templates for every component."
+  ],
+  "squeezeTitle": "The Professional Tracking Stack",
+  "squeezeBullets": [
+    "GA4 plus GTM plus Consent Mode v2: the foundation every professional services site needs in 2026",
+    "Server-side conversions via Meta CAPI and Google Ads Enhanced Conversions without leaking PHI or PII",
+    "Vertical-specific patterns for doctors (HIPAA), lawyers (state bar rules), and home services (call-driven)"
+  ],
+  "description": "Conversion tracking quietly broke for professional services. The standard playbooks online no longer work. Consent Mode v2 became mandatory in the EEA in March 2024 and is now enforced. Third-party cookies are gone in Chrome. Meta restricted lower-funnel events (Lead, Schedule, Purchase) for accounts categorized as Health and Wellness in late 2025. Half of GA4 conversions get dropped without server-side fallback. The pixel-only setups that worked in 2022 produce broken attribution in 2026.\n\nProfessional services have it worst. A medical practice cannot send the same data to Meta that an e-commerce store can. A law firm cannot tag a lead with the case type without violating attorney advertising rules in some states. A home service business loses 60 to 70 percent of attribution on every phone call without DNI in place.\n\nThis playbook fixes all of it. GA4, GTM, Consent Mode v2, Meta Pixel plus CAPI with healthcare-safe configuration, Google Ads with Enhanced Conversions and PII hashing, TikTok Events API, CallRail with vertical-specific compliance, and vanilla-cookieconsent v3 as the consent layer. Patterns are written for professional service businesses across three verticals: doctors and clinics, lawyers and law firms, home service contractors and trades.\n\nIncluded as a printable PDF, a duplicatable Notion template, and a companion git repo with working Next.js 16 component templates, server-side route handlers, and an env.example covering every variable you need.\n\nInside:\n\nPart 1, Why Tracking Got Hard in 2026 (Consent Mode, Cookie Sunset, Vertical Compliance).\n\nPart 2, The Foundation: GA4 Plus GTM Plus Consent Mode v2.\n\nPart 3, Server-Side Conversions: Meta CAPI Plus Google Ads Enhanced Conversions.\n\nPart 4, The Vertical Layer: Doctor, Lawyer, and Home Service Patterns.\n\nPart 5, Call Tracking Plus Lead Attribution: CallRail, First-Party UTM Capture, GSC API.\n\nPart 6, Validation, Deployment, and the 8 Failures That Silently Break Tracking.",
+  "emailSubject": "Your Professional Tracking Stack is ready",
+  "githubUrl": "https://github.com/AI-BrandFactory/professional-tracking-stack",
+  "notionUrl": "https://massiveimpact.notion.site/The-Compliant-Tracking-Stack-for-Professionals-34cfb27e6634811a9275e6550d3b2514",
+  "notionIcon": "📡",
+  "isPublished": true,
+  "githubRepo": "professional-tracking-stack"
+}
